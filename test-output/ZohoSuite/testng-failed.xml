@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ZohoSuite]" parallel="tests">
+  <test name="Login Test(failed)" parallel="tests">
+    <classes>
+      <class name="com.abtrading.zoho.project.testcases.LeadTest">
+        <methods>
+          <include name="init"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.abtrading.zoho.project.testcases.LeadTest -->
+      <class name="com.abtrading.zoho.project.testcases.PotentialTest">
+        <methods>
+          <include name="init"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.abtrading.zoho.project.testcases.PotentialTest -->
+      <class name="com.abtrading.zoho.project.testcases.LoginTest">
+        <methods>
+          <include name="quit"/>
+          <include name="doLogin" invocation-numbers="1"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.abtrading.zoho.project.testcases.LoginTest -->
+    </classes>
+  </test> <!-- Login Test(failed) -->
+  <test name="Potential Test(failed)" parallel="tests">
+    <classes>
+      <class name="com.abtrading.zoho.project.testcases.LeadTest">
+        <methods>
+          <include name="init"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.abtrading.zoho.project.testcases.LeadTest -->
+      <class name="com.abtrading.zoho.project.testcases.PotentialTest">
+        <methods>
+          <include name="init"/>
+          <include name="deletePotentialAccountTest"/>
+          <include name="quit"/>
+          <include name="createPotentialTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.abtrading.zoho.project.testcases.PotentialTest -->
+      <class name="com.abtrading.zoho.project.testcases.LoginTest">
+        <methods>
+          <include name="quit"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.abtrading.zoho.project.testcases.LoginTest -->
+    </classes>
+  </test> <!-- Potential Test(failed) -->
+  <test name=" Lead Test(failed)" parallel="tests">
+    <classes>
+      <class name="com.abtrading.zoho.project.testcases.LeadTest">
+        <methods>
+          <include name="convertLeadTest" invocation-numbers="3 1 2 0"/>
+          <include name="deleteLeadAccountTest" invocation-numbers="0"/>
+          <include name="init"/>
+          <include name="quit"/>
+          <include name="createLeadTest" invocation-numbers="3 1 2"/>
+        </methods>
+      </class> <!-- com.abtrading.zoho.project.testcases.LeadTest -->
+      <class name="com.abtrading.zoho.project.testcases.PotentialTest">
+        <methods>
+          <include name="init"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.abtrading.zoho.project.testcases.PotentialTest -->
+      <class name="com.abtrading.zoho.project.testcases.LoginTest">
+        <methods>
+          <include name="quit"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.abtrading.zoho.project.testcases.LoginTest -->
+    </classes>
+  </test> <!--  Lead Test(failed) -->
+</suite> <!-- Failed suite [ZohoSuite] -->

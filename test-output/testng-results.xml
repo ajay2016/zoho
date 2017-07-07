@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="48895" started-at="2017-07-04T06:17:40Z" finished-at="2017-07-04T06:18:29Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="48895" started-at="2017-07-04T06:17:40Z" finished-at="2017-07-04T06:18:29Z">
+      <class name="com.abtrading.zoho.project.testcases.PotentialTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.abtrading.zoho.project.testcases.PotentialTest@5d47c63f]" name="init" is-config="true" duration-ms="8" started-at="2017-07-04T16:17:41Z" finished-at="2017-07-04T16:17:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="createPotentialTest(java.util.Hashtable)[pri:0, instance:com.abtrading.zoho.project.testcases.PotentialTest@5d47c63f]" name="createPotentialTest" duration-ms="45492" started-at="2017-07-04T16:17:41Z" data-provider="getDataPotentials" finished-at="2017-07-04T16:18:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{PotentialName=Henry, Runmode=Y, AccountName=Ford Motors, ClosingDate=5/7/2017, Stage=Qualification, Browser=Chrome}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPotentialTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.abtrading.zoho.project.testcases.PotentialTest@5d47c63f]" name="quit" is-config="true" duration-ms="2473" started-at="2017-07-04T16:18:26Z" finished-at="2017-07-04T16:18:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="deletePotentialAccountTest()[pri:0, instance:com.abtrading.zoho.project.testcases.PotentialTest@5d47c63f]" name="deletePotentialAccountTest" duration-ms="3" started-at="2017-07-04T16:18:29Z" depends-on-methods="com.abtrading.zoho.project.testcases.PotentialTest.createPotentialTest" finished-at="2017-07-04T16:18:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePotentialAccountTest -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.abtrading.zoho.project.testcases.PotentialTest@5d47c63f]" name="init" is-config="true" duration-ms="0" started-at="2017-07-04T16:18:29Z" finished-at="2017-07-04T16:18:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.abtrading.zoho.project.testcases.PotentialTest@5d47c63f]" name="quit" is-config="true" duration-ms="96" started-at="2017-07-04T16:18:29Z" finished-at="2017-07-04T16:18:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.abtrading.zoho.project.testcases.PotentialTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

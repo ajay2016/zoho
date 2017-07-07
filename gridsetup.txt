@@ -1,0 +1,15 @@
+To run in grid
+1. In TestNG
+	<suite name="ZohoSuite" parallel =  "tests">
+2. In DataProvider in all classes
+	@DataProvider (parallel = true)
+3. In BaseTest.java
+	boolean grid_run = false OR TRUE;
+	Depending upon if you are running grid or not
+4. DesiredCapabilities object
+	browser_name and platform set up
+5. Remote WebDriver	http://localhost:4444 will send the capabilities to the hub
+6.Start hub and node using hub and node configurations
+	HOST AND PORT has to be set
+7.Log is generated in the report in extent reports separately	
+	

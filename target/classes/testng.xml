@@ -1,0 +1,26 @@
+<suite name="ZohoSuite" parallel =  "tests">
+	
+	
+	<test name="Login Test" allow-return-values="true">
+		<classes>
+			<class name="com.abtrading.zoho.project.testcases.LoginTest" />
+		</classes>
+	</test>
+	
+	<test name=" Lead Test" allow-return-values="true">
+		<classes>
+			<class name="com.abtrading.zoho.project.testcases.LeadTest" />
+		</classes>
+	</test>
+	
+	<test name="Potential Test" allow-return-values="true">
+		<classes>
+			<class name="com.abtrading.zoho.project.testcases.PotentialTest" />
+		</classes>
+	</test>
+	
+	
+	
+	
+</suite>
+
